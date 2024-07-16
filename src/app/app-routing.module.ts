@@ -13,19 +13,23 @@ const routes: Routes = [
   pathMatch: 'full'
  }, {
     path:'home',
-    component: HomeComponent
+    component: HomeComponent,
+    title:'Home - Freaks Todo Manager'
   }
   ,{
     path:'add-todo',
-    component: AddTodoComponent
+    component: AddTodoComponent,
+    title:'Add Todo - Freaks Todo Manager'
   }
   ,{
    path:'view-todo',
-   component: ViewTodosComponent
+   component: ViewTodosComponent,
+   title: 'View Todo - Freaks Todo Manager'
   }
   ,{
     path:'update-todo',
-    component: UpdateTodoComponent
+    component: UpdateTodoComponent,
+    title: 'Update Todo - Freaks Todo Manager'
   }
 ];
 
